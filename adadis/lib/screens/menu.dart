@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:adadis/widgets/left_drawer.dart';
 import 'package:adadis/widgets/product_card.dart';
 
+
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
 
@@ -67,7 +68,7 @@ class MyHomePage extends StatelessWidget {
 
                   // Grid untuk menampilkan ItemCard dalam bentuk grid 3 kolom.
                   GridView.count(
-                    primary: false,
+                    primary: true,
                     padding: const EdgeInsets.all(20),
                     crossAxisSpacing: 10,
                     mainAxisSpacing: 10,

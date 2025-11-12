@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:adadis/screens/menu.dart';
 import 'package:adadis/screens/productlist_form.dart';
+import 'package:adadis/screens/product_entry_list.dart';
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});
@@ -65,7 +66,7 @@ class LeftDrawer extends StatelessWidget {
             // Bagian redirection ke NewsFormPage
             onTap: () {
               Navigator.push(context,
-              MaterialPageRoute(builder: (context) => MyHomePage()));
+              MaterialPageRoute(builder: (context) => ProductEntryListPage()));
             },
           ),
         ],
